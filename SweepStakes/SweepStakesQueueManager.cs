@@ -10,8 +10,6 @@ namespace SweepStakes
     {
         Queue<SweepStakes> sweepStakesQueueManager = new Queue<SweepStakes>();
 
-
-
         public SweepStakes GetSweepStakes() 
         {
             return sweepStakesQueueManager.Dequeue();
@@ -23,12 +21,6 @@ namespace SweepStakes
             sweepStakesQueueManager.Enqueue(sweepStakes);
         
         }
-
-
-
-        
-
-
     
     }
 }

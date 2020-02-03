@@ -17,32 +17,24 @@ namespace SweepStakes
             return Console.ReadLine();
 
         }
-
-
         public static string SetLastName() 
         {
             Console.WriteLine("What is your last name? ");
             return Console.ReadLine();
 
         }
-
-
         public static string SetEmailAddress() 
         {
             Console.WriteLine("What is your email address ? ");
             return Console.ReadLine();
         }
-
-
         public static int SetRandomRegistrationNumber() 
         {
-            int number = rand.Next(1000);
+            int number = rand.Next(150);
             Console.WriteLine(" Your new registration number is: " + number);
             return number;
         
-        } 
-        
-             
+        }      
         
      }
 }

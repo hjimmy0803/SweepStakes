@@ -21,7 +21,7 @@ namespace SweepStakes
         }
         public void SweepStakes() 
         {
-            SweepStakes sweepStakes = new SweepStakes();
+            SweepStakes sweepStakes = new SweepStakes("enter name");
             manager.InsertSweepStakes(sweepStakes);
         
         }

@@ -17,7 +17,6 @@ namespace SweepStakes
             stack.Push(sweepStakes);
         }
 
-
         public SweepStakes GetSweepStakes()
         {
             return stack.Pop();

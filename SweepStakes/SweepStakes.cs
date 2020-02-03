@@ -11,7 +11,7 @@ namespace SweepStakes
         public Dictionary<int, Contestant> contestants= new Dictionary<int, Contestant>();
         string name;
         string Name;
-        int counter;
+        public int counter;
 
 
         public SweepStakes(string name) 
@@ -19,6 +19,9 @@ namespace SweepStakes
             this.name = name;
         
         }
+
+        
+
         public void RegisterContestant(Contestant contestant) 
         {
             contestant.regristrationNumber = UserInterface.SetRandomRegistrationNumber();
